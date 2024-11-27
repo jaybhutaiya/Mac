@@ -1,0 +1,1287 @@
+*{
+    margin: 0;
+    padding: auto;
+/* home css start */
+}
+.ABC{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.ABC :hover{
+    color: #F1BA92;
+}
+.ABC:visited{
+    color: red;
+}
+.ABC:active{
+    color: black;
+}
+.DEF{
+    padding-left: 400px;
+}
+.DEF a{
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main{
+    background-color:#32100e;
+    display: flex;
+    align-items: center;
+}
+.phone{
+    align-items: center;
+    position: relative;
+    padding-top: 10px;
+}
+.logo{
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -17px;
+    padding-left: 10px;
+}
+.number{
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 10px;
+}
+.icon{
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.whatsapp{
+    margin-left: 400px;
+}
+.instagram{
+    margin-left: 20px;
+}
+.facebook{
+    margin-left: 20px;
+}
+.linkdin
+{
+    margin-left: 20px;
+}
+.mail{
+    margin-left: 330px;
+    margin-bottom: -5px;
+}
+.email{
+    padding-left: 14px;
+}
+
+.log{
+    margin-left: 50px;
+}
+.F1{
+    margin-left: 50px;
+    padding: 20px;
+}
+.icon1 a{
+    margin-left: 50px;
+}
+.icon1{
+    display: flex;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.whatsapp1{
+    margin-left: 30px;
+}
+.facebook1{
+    margin-left: 30px;
+}
+.instagram1{
+    margin-left: 30px;
+}
+.linkdin1{
+    margin-left: 30px;
+}
+.pages{
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+}
+.pages a{
+    display: flex;
+    align-items: center;
+}
+.content{
+    align-items: center;
+    display: flex;
+    margin-left: 150px;
+}
+.F{
+    padding: 10px;
+
+}
+.log{
+    padding: 10px;
+}
+
+.fo{
+    display: flex;
+    align-items: center;
+    background-color: #F1BA92;
+    padding:60px;
+}
+
+.call{
+    margin-left: 20px;
+}
+
+.content{
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 5px;
+}
+
+.content ul li{
+    margin: 10px;
+}
+
+.contact {
+    margin-left: 150px;
+    padding-bottom: 5px;
+    padding: 20px;
+    margin-bottom: 35px;
+}
+.end{
+ height: 80px;
+ background-color: #32100e;
+ position: relative;
+ top: -20px;
+}
+
+.end p{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.c1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.i1{
+    margin-top: 10px;
+    font-size: larger;
+}
+.num{
+    margin-left: 15px;
+}
+.c2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.i2{
+    margin-top: 10px;
+    font-size: larger;
+}
+.gmail{
+    margin-left: 15px;
+}
+.c3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.i3{
+    margin-top: 10px;
+    font-size: larger;
+}
+.loc{
+    margin-left: 15px;
+}
+
+.banner{
+    background-image: url(../Image/banner1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.text{
+    text-align: center;
+    position: relative;
+    right: 30%;
+    top: 10%;
+    color: rgb(49, 10, 246);
+    font-size: 250%;
+}
+.ilo{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin-left: 30px;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+.imgg{
+    right: 30%;
+    padding-left: 70px;
+    margin-top: 20px;}
+.why{
+    align-items: center;
+    padding-left: 70px;
+    font-size: larger;
+    margin-bottom: 50px;
+    padding-bottom:20px;
+}
+.why li{
+    padding-bottom: 20px;
+}
+.why h1{
+    padding-bottom: 10px;
+}
+.button{
+    padding-top: 350px;
+}
+.sec3{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+.Animal{
+    right: 20px;
+    padding-left: 60px;
+    font-size: large;
+    margin-bottom: 170px;
+    font: bold;
+}
+.Animal p{
+    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-right: 20PX;
+    color: #303030;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+.lap{
+    margin-bottom: 170px;
+}
+.sec4{
+    background-color: #32100e;
+    padding : 35px;
+    margin-top: 10px;  
+}
+.cc1{
+    align-items: center;
+    padding-left: 340px;
+    margin-bottom: 40px;
+}
+.cc1 h1{
+    font-size: 50px;
+    padding-right: 50px ;
+}
+.jay{
+    padding-left: 60px;
+}
+.p1{
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    word-spacing: 1px;
+    padding: 0px 80px;
+}
+.p2{
+    padding-left: 340px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 28px;
+    top: -230px;
+    position: relative;
+
+}
+.p2 h1 {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.p2 p{
+    margin-bottom: 30px;
+}
+
+.sec6{
+    padding: 100px;
+}
+.se1{
+    padding-left: 340px;
+    margin-top: 10px;
+}
+.sp1{
+    padding-left: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.slog{
+    padding-left: 25px;
+    margin-top: 100px;
+}
+.sec7{
+    background-color:rgb(242, 227, 225);
+    font-style: oblique;
+    height: 105vh;
+    visibility: visible;
+    animation-delay: 0.5s;
+
+}
+.fac{
+    color: #303030;
+    padding-bottom: 50px;
+    font-size: xx-large;
+    font-style: normal;
+    align-items: center;
+    padding-left:330px ;
+}
+.fima1{
+    display: flex;
+}
+.fima2{
+    display: flex;
+    margin-top: 100px;
+}
+.fima11{
+    margin-left: 110px;
+  
+}
+.sec7 img{
+    background: white;
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.fima22{
+    margin-left: 50px;
+}
+.fima33{
+    margin-left: 70px;
+}
+.fima44{
+    margin-left: 60px;
+}
+.fima55{
+    margin-left: 100px;
+}
+.fima66{
+    margin-left: 100px;
+}
+.fima77{
+    margin-left: 120px;
+}
+.fima88{
+    margin-left: 120px;
+}
+.sec7 h4{
+    background: #a74737;
+    padding: 15px 25px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+}
+.facilitytitle4{
+    margin-right: 80px;
+}
+.banc{
+    background-image: url(../Image/contact.jpg);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+}
+.banc h1{
+    padding-left: 360px;
+    padding-top: 190px;
+    font-size: 90px;
+    color:white;
+}
+.banc h1:hover{
+    color: #F1BA92;
+}
+ .addr{
+    padding-left: 70px;
+} 
+ .row {
+    margin-left: 5px;
+    margin-right:   5px;
+    align-items: center;
+    display: flex;
+}
+.addre{
+    padding-left: 50px;
+    align-items: center;
+} */
+ .calling{
+    margin-left: 400px;
+ }
+.cac{
+    margin-left: 190px;
+    top: 10px;
+    position: relative;
+}
+.cn h4{
+    margin-left: 270px;
+    margin-top: -30px;
+    align-items: center;
+
+}
+.cn p{
+    margin-left: 270px ;
+}
+.EEM{
+    /* display: flex; */
+    margin-left: 100px;
+    align-items: center;
+    /* margin-bottom: 10px; */
+    margin-top: -140px;
+}
+.cl{
+    margin-left: 60px;
+    margin-top: 150px;
+} 
+ .ce h4{
+    /* margin-left: 160px; */
+    margin-top: -50px;
+    margin-left: 200px;
+}
+.ce p{
+    padding-left: 200px;
+}
+.cform{
+    top: 100px;
+    position: relative;  
+}
+input{
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+} 
+.formtitle{
+    margin-left: 150PX;
+}
+.cimg{
+    margin-left: 600px;
+    margin-top: -120PX;
+}
+.textarea{
+    margin-left: 60px;
+}
+/* course css start */
+.course1{
+    display: flex;
+    margin-left: 25px; 
+    padding-bottom: 50px;
+    margin-top: 30px;
+ }
+ .info1 a{
+    color: black;
+ }
+ .info2 a{
+    color: black;
+ }
+ .info3 a{
+    color: black;
+ }
+ .info4 a{
+    color: black;
+ }
+ .in1 a{
+    color: black;
+ }
+ .in2 a{
+    color: black;
+ }
+ .in3 a{
+    color: black;
+ }
+ .in4 a{
+    color: black;
+ }
+ .in5 a{
+    color: black;
+ }
+ .in6 a{
+    color: black;
+ }
+ .in7 a{
+    color: black;
+ }
+ .in8 a{
+    color: black;
+ }
+ .maincourses a{
+    color: #32100e;
+ }
+ .border1{
+    /* border: 1px solid  black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ }
+ .border1:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+ }
+ .border2{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ }
+ .border2:hover{
+    /* margin-top: 10px ; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+ }
+ /* .border3{ */
+    /* border: 1px solid black; */
+    /* border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+ /* } */
+ .border3:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+ }
+ .border4{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ }
+ .border4:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+ }
+ .bd:hover{
+    color: #F1BA92;
+ }
+ .fd:hover{
+    color: #F1BA92;
+ }
+ .fde:hover{
+    color: #F1BA92;
+ }
+ .fd:hover{
+    color: #F1BA92;
+ }
+ .py:hover{
+    color: #F1BA92;
+ }
+.bancc{
+    background-image: url(../Image/course_banner.jpeg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.bancc h4{
+    font-size: 80px;
+    color:white;
+    margin-left: 450px;
+    padding-top: 200px;
+}
+.bancc h4:hover{
+    color: #F1BA92;
+}
+.course2{
+    display: flex;
+    margin-left: 25px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.course2 button{
+    margin-bottom: 20px;
+}
+.border5{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.border5:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+}
+.border6{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.border6:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+}
+.border7{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.border7:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+}
+.border8{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.border8:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+}
+.gd:hover{
+    color: #F1BA92;
+}
+.ad:hover{
+    color: #F1BA92;
+}
+.wd:hover{
+    color: #F1BA92;
+}
+.we:hover{
+    color: #F1BA92;
+}
+.course3{
+    display: flex;
+    margin-left: 25px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+.course3 button{
+    margin-bottom: 20px;
+}
+.dm:hover{
+    color: #F1BA92;
+}
+.ui:hover{
+    color: #F1BA92;
+}
+.id:hover{
+    color: #F1BA92;
+}
+.gd:hover{
+    color: #F1BA92;
+}
+.course1 a{
+    text-decoration: none;
+    
+}
+.name1{
+    margin-left: 30px;
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.course1 h4{
+    margin-left: 35px;
+}
+.course1 button{
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+.info1{
+    margin-bottom: 20px;
+}
+.name2{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.name3{
+    margin-left: 45px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.name4{
+    margin-left: 90px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.course2 a{
+    text-decoration: none;
+}
+.course2 h4{
+    margin-left: 35px;
+}
+.course2 button{
+    margin-left: 75px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.na1{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.na2{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.na3{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.na4{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.course3 a{
+    text-decoration: none;
+}
+.course3 button{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.border9{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.border9:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+}
+.border10{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.border10:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+}
+.border11{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.border11:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+}
+.border12{
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.border12:hover{
+    /* margin-top: 10px; */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* transition: 250ms; */
+}
+.na5{
+    margin-left: 60px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.na6{
+    margin-left: 75px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.na7{
+    margin-left: 70px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.na8{
+    margin-left: 70px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.border13{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.na9{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.course3 h4{
+    margin-left: 40px;
+}
+.in9{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.in8{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;    
+}
+.in7{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.in6{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.in5{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.in4{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.in3{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.in4{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.in3{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.in2{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.in1{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.info1{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.info2{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.info3{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.info4{
+    background-color: #F1BA92;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+/* course css end */
+/* college courses css start*/
+.cbann{
+    background-image: url(../Image/college_banner.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+.cbann h4{
+    font-size: 80px;
+    color:aqua;
+    margin-left: 320px;
+    padding-top: 30px;
+}
+.cbann h4:hover{
+    color: #F1BA92;
+}
+.coc{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+.coim2{
+    margin-left: 30px;
+}
+.cot h1{
+    margin-bottom: 20px;
+}
+.coim1{
+    margin-left: 30px;
+}
+.cot{
+    margin-left: 30px;
+}
+.co3{
+    display: flex;
+}
+.cott{
+    margin-left: 120px;
+}
+.cott h1{
+    margin-bottom: 20px;
+}
+.cott li{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+/* college course css end */
+/* about us css Start*/
+.abs{
+    background-image: url(../Image/about.jpg);
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+.abo{
+    display: flex;
+}
+.abs h4{
+    color: white;
+    font-size: 50px;
+    margin-left: 470px;
+    padding-top: 150px;
+}
+.abs h4:hover{
+    color: #F1BA92;
+}
+.aimg{
+    padding-top: 70px;
+    margin-left: 60px;
+}
+.ati h1{
+    margin-left: 50px;
+    margin-top: 70px;
+    font-size: 35px;
+    color: #32100e;
+}
+.ati p{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size:19px;
+    color: #a74737;
+    line-height: 30px;
+}
+.aboo{
+    display: flex;
+}
+.atii h1{
+    margin-left: 25px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: #32100e;
+}
+.atii p{
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 20px;
+    color: #a74737;
+}
+.aimg1{
+    padding-top: 80px;
+    margin-left: 70px;
+}
+.team{
+    margin-left: 450px;
+    padding-top: 40px;
+    font-size: 40px;
+}
+.staff{
+    display: flex;
+}
+.founder{
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.ceo{
+    margin-left: 50px;
+    padding-top: 50px;   
+}
+/* about us css end */
+/* blockchain css start */
+.blockchain{
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+.block{
+    display: flex;
+    padding-top: 80px;
+}
+.blockimg{
+    margin-top: 40px;
+}
+.lolocklist h1{
+    margin-left: 50px;
+}
+.blocklist li{
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 80px;
+    color: #a74737;
+    font-weight: bold;
+}
+/* blockchain css end */
+/* fullstack css start */
+.fullstack{
+    background-image: url(../Image/fullstack1.webp);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.fullstack h3{
+    font-size: 40px;
+    color: white;
+    margin-left: 400px;
+}
+.fult{
+    margin-left: 350px;
+    padding-top: 50px;
+    font-size: 30px;
+    color: #ee8439;
+}
+.full{
+    padding-top: 50px;
+    display: flex;
+}
+.fulli{
+    margin-left:50px ;
+}
+.fullt{
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 17px;
+    margin-left: 80px;
+    color: black;
+    font-weight: bold;
+}
+.fullt h2{
+    margin-bottom: 20px;
+}
+.fullt li{
+    line-height: 30px;
+}
+.back{
+    padding-top: 50px;
+    margin-left: 100px;
+    display: flex;
+}
+.back h2{
+    margin-bottom: 20px;
+}
+.back li{
+    line-height: 30px;
+    color: black;
+    font-weight: bold;
+}
+.backi{
+    margin-left: 250px;
+}
+/* Fullstack css end */
+/* flutter Css start */
+.flutter{
+    background-image: url(../Image/flutter\ page.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.flutter h2{
+    margin-left: 70px;
+    color: aliceblue;
+    font-size: 50px;
+    text-decoration: overline;
+}
+.flutterj{
+    padding-bottom: 100px;
+    margin-right: 10px;
+}
+.fp p{
+    margin-left: 100px;
+    line-height: 30px;
+}
+.flutter1{
+    padding-top: 50px;
+    display: flex;
+}
+.flutteri{
+    margin-left: 50px;
+}
+.flutterl1{
+    line-height: 25px;
+    font-weight: bolder;
+}
+/* flutter css end */
+/* python css start */
+.python{
+    background-image: url(../Image/python\ br.jpeg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    padding-top: 50px;
+}
+.python1{
+    display: flex;
+}
+.pythoni{
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.pythont{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.pythont li{
+    line-height: 30px;
+}
+/* python css end */
+/* graphics css start */
+.graphics{
+    background-image: url(../Image/graphics.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+}
+.graphics h4{
+    font-size: 40px;
+    margin-left: 700px;
+    margin-bottom: 100px;
+}
+.graphics1{
+    display: flex;
+    padding-top: 60px;
+}
+.graphicsi{
+    margin-left: 50px;
+}
+.graphicst{
+    margin-left: 150px;
+    font-size: large;
+}
+.graphicst li{
+    line-height: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.graphics2t h4{
+    margin-top: 30px;
+}

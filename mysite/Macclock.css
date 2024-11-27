@@ -1,0 +1,45 @@
+
+.main{
+    position: relative;
+    background-color: black;
+    display: flex;
+    text-align: center;
+}
+.phone{
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+}
+.logo{
+    padding-top: 15px;
+}
+.number{
+    margin-left: 10px;
+}
+.AAA{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.BBB{
+    padding-left: 400px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.BBB a{
+    margin-right: 10px;
+}
+.BBB a{
+    color: black;
+    text-decoration: none;
+}
+.icon{
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+.icon a{
+    padding-left: 20px;
+}
