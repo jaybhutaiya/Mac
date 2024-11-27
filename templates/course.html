@@ -1,0 +1,219 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block MAC %}
+    <section>
+        <div class="bancc">
+            <h4>Courses</h4>
+        </div>
+    </section>
+    <section>
+        <div class="maincourses">
+                <div class="course1">
+                    {% for i in data %}
+                    <div class="border1">
+                        <div class="bd">
+                            <div class="img1">
+                                <img style="width: 250px; margin: 20px;" src="/media/{{i.image}}" alt="">
+                            </div>
+                            <div class="name1">
+                                <b>{{i.name}}</b>
+                            </div>
+                            <div class="time1">
+                                <h4>Course Duration : {{i.duration}}</h4>
+                            </div>
+                            <button class="info1">
+                                <a href="{% url 'blockchain' %}">Read More</a>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    {% if forloop.counter|divisibleby:4 %}</div><div class="course1">{% endif %}
+                    {% endfor %} 
+                
+{% endblock %}                    
+                <!-- <div class="border2">
+                <div class="fde">
+                    <div class="img2">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/Full_Stack_Development.jpg' %}" alt="">
+                    </div>
+                    <div class="name2">
+                        <a href="fullstack.html">Full_Stack_Development</a>
+                    </div>
+                    <div class="time2">
+                        <h4>Course Duration : 10 Month</h4>
+                    </div>
+                    <button class="info2">
+                        <a href="{% url 'fullstack' %}">Read More</a>
+                    </button>
+                </div>
+                </div>
+                <div class="border3">
+                <div class="fd">
+                    <div class="img3">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/Flutter_Development.jpg' %}" alt="">
+                    </div>
+                    <div class="name3">
+                        <a href="flutter.html">Flutter_Development</a>
+                    </div>
+                    <div class="time3">
+                        <h4>Course Duration : 8 Month</h4>
+                    </div>
+                    <button class="info3">
+                        <a href="{% url 'flutter' %}">Read More</a>
+                    </button>
+                </div>
+                </div>
+                <div class="border4">
+                <div class="py">
+                    <div class="img4">
+                        <img style="width: 250px; margin: 20px;" src="{% static 'Image/Python.jpg' %}" alt="">
+                    </div>
+                    <div class="name4">
+                        <a href="python.html">Python</a>
+                    </div>
+                    <div class="time4">
+                        <h4>Course Duration : 8 Month</h4>
+                    </div>
+                    <button class="info4">
+                        <a href="{% url 'python' %}">Read More</a>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <div class="course2">
+                <div class="border5">
+                <div class="gd">
+                    <div class="im1">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/graphics_design.jpg' %}" alt="">
+                    </div>
+                    <div class="na1">
+                        <a href="graphics.html">Graphics_design</a>
+                    </div>
+                    <div class="ti1">
+                        <h4>Course Duration : 4 Month</h4>
+                    </div>
+                    <button class="in1">
+                        <a href="{% url 'graphics' %}">Read More</a>
+                    </button>
+                </div>
+                </div>
+                <div class="border6">
+                <div class="ad">
+                    <div class="im2">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/Android_development.jpg' %}" alt="">
+                    </div>
+                    <div class="na2">
+                        <a href="#">Android_development</a>
+                    </div>
+                    <div class="ti2">
+                        <h4>Course Duration : 8 Month</h4>
+                    </div>
+                    <button class="in2">
+                        <a href="#">Read More</a>
+                    </button>
+                </div>
+                </div>
+                <div class="border7">
+                <div class="wd">
+                    <div class="im3">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/Web_Development.jpg' %}" alt="">
+                    </div>
+                    <div class="na3">
+                        <a href="#">Web_Development</a>
+                    </div>
+                    <div class="ti3">
+                        <h4>Course Duration : 8 Month</h4>
+                    </div>
+                    <button class="in3">
+                        <a href="#">Read More</a>
+                    </button>
+                </div>
+                </div>
+                <div class="border8">
+                <div class="we">
+                    <div class="im4">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/Web_Design.jpg' %}" alt="">
+                    </div>
+                    <div class="na4">
+                        <a href="#">Web_Design</a>
+                    </div>
+                    <div class="ti4">
+                        <h4>Course Duration : 8 Month</h4>
+                    </div>
+                    <button class="in4">
+                        <a href="#">Read More</a>
+                    </button>
+                </div>
+                </div>
+            </div>
+            <div class="course3">
+                <div class="border9">
+                <div class="dm">
+                    <div class="im5">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/digital_marketing.jpg' %}" alt="">
+                    </div>
+                    <div class="na5">
+                        <a href="#">Digital_Marketing</a>
+                    </div>
+                    <div class="ti5">
+                        <h4>Course Duration : 4 Month</h4>
+                    </div>
+                    <button class="in5">
+                        <a href="#">Read More</a>
+                    </button>
+                </div>
+                </div>
+                <div class="border10">
+                <div class="ui">
+                    <div class="im6">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/UI_UX_design.jpg' %}" alt="">
+                    </div>
+                    <div class="na6">
+                        <a href="#">Ui-Ux Design</a>
+                    </div>
+                    <div class="ti6">
+                        <h4>Course Duration : 4 Month</h4>
+                    </div>
+                    <button class="in6">
+                        <a href="#">Read More</a>
+                    </button>
+                </div>
+                </div>
+                <div class="border11">
+                <div class="id">
+                    <div class="im7">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/Android_development.jpg' %}" alt="">
+                    </div>
+                    <div class="na7">
+                        <a href="#">ios Development</a>
+                    </div>
+                    <div class="ti7">
+                        <h4>Course Duration : 8 Month</h4>
+                    </div>
+                    <button class="in7">
+                        <a href="#">Read More</a>
+                    </button>
+                </div>
+                </div>
+                <div class="border12">
+                <div class="gd">
+                    <div class="i8">
+                        <img style="width: 250px;margin: 20px;" src="{% static 'Image/game_development.jpg' %}" alt="">
+                    </div>
+                    <div class="na8">
+                        <a href="#">Game_Development</a>
+                    </div>
+                    <div class="ti8">
+                        <h4>Course Duration : 8 Month</h4>
+                    </div>
+                    <button class="in8">
+                        <a href="#">Read More</a>
+                    </button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 

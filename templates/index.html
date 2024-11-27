@@ -1,0 +1,17 @@
+
+<html>
+<head>
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>my name is {{name}}</h1>
+    <h1>phone number is{{Ph_no}}</h1>
+    <h2>{{digit}}</h2>
+        {% for i in digit %}
+        {% if i != 0 %}
+        <h2>{{forloop.counter0}} : {{i}}</h2>
+        {% endif %}
+        {% endfor %}
+    
+</body>
+</html>

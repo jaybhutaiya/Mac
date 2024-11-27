@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block MAC %}
+
+<section>
+    <div class="blockchain">
+        <img src="/media/{{data.bi}}" alt="">
+    </div>
+</section>
+<section>
+    <div class="block">
+        <div class="blocklist">
+            <h1>{{data.cname}}</h1>
+            <li>{{data.cinfo}}</li>
+        </div>
+        <div class="blockimg">
+            <img style="width: 650px;" src="/media/{{data.cimg}}" alt="">
+        </div>
+    </div>
+</section>
+</body>
+</html>
+{% endblock %}

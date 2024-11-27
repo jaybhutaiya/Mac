@@ -1,0 +1,249 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block MAC %}
+    <!-- banner start -->
+    <section>
+        <div class="banner">
+            <div class="ilo">
+                <img style="width: 250px;"src="{% static 'Image/mac.png' %}" alt="Sorry">
+            </div>
+            <div class="text">
+                <h1>Our Best Value Is,<br>Student's,<br> Best Future...</h1>
+            </div>
+        </div>
+    </section>
+    <div class="maincourses">
+        <div class="course1">
+            {% for i in data|slice:":4" %}
+                <div class="border1">
+                <div class="bd">
+                    <div class="img1">
+                        <img style="width: 250px; margin: 20px;" src="/media/{{i.image}}" alt="">
+                    </div>
+                    <div class="name1">
+                        <a href="">{{i.name}}</a>
+                    </div>
+                    <div class="time1">
+                        <h4>Course Duration : {{i.duration}}</h4>
+                    </div>
+                    <button class="info1">
+                        <a href="{% url 'blockchain' %}">Read More</a>
+                    </button>
+                </div> 
+                </div>
+                {% endfor %}
+            </div>   
+        <!-- <div class="border2">
+        <div class="fde">
+            <div class="img2">
+                <img style="width: 250px;margin: 20px;" src="{% static 'Image/Full_Stack_Development.jpg' %}" alt="">
+            </div>
+            <div class="name2">
+                <a href="">Full_Stack_Development</a>
+            </div>
+            <div class="time2">
+                <h4>Course Duration : 10 Month</h4>
+            </div>
+            <button class="info2">
+                <a href="">Read More</a>
+            </button>
+        </div>
+        </div>
+        <div class="border3">
+        <div class="fd">
+            <div class="img3">
+                <img style="width: 250px;margin: 20px;" src="{% static 'Image/Flutter_Development.jpg' %}" alt="">
+            </div>
+            <div class="name3">
+                <a href="">Flutter_Development</a>
+            </div>
+            <div class="time3">
+                <h4>Course Duration : 8 Month</h4>
+            </div>
+            <button class="info3">
+                <a href="">Read More</a>
+            </button>
+        </div>
+        </div>
+        <div class="border4">
+        <div class="py">
+            <div class="img4">
+                <img style="width: 250px; margin: 20px;" src="{% static 'Image/Python.jpg' %}" alt="">
+            </div>
+            <div class="name4">
+                <a href="">Python</a>
+            </div>
+            <div class="time4">
+                <h4>Course Duration : 8 Month</h4>
+            </div>
+            <button class="info4">
+                <a href="">Read More</a>
+            </button>
+        </div>
+        </div>
+    </div>
+    <section>
+    <section>
+        <div class="view">
+            <a style="margin-left: 540px;font-size: xx-large;text-decoration:none" href="{% url 'course' %}">View More</a>
+        </div>
+    </section> -->
+    <!-- baneer end -->
+    <section>
+        <div class="sec2">
+            <div class="imgg">
+                <img style="width: 500px;"src="{% static 'Image/mac1.jpg' %}"alt="Sorry">
+            </div>
+            <div class="why">
+                <h1 style="color: brown;">WHY MACLLOC INSTITUTE?</h1>
+                <li>  ચાલુ કોર્ષ દરમિયાન Full support</li>
+                <li>  Maclloc માં વિધાથીને કોર્ષની સાથે 100% Job Placement ની ગેરેંટી આપવામાં આવે છે</li>
+                <li>  Full Expertise Faculty</li>
+                <li>  Full Facility and High Infrastructure</li>
+                <li>  Course માટેની Full Value આપતી એક માત્ર સંસ્થા</li>
+                <p>કમ્પ્યુટર IT હવે Skill નહીં પણ જરૂરીયાત બની રહી છે,<br> તો આજે જ જોડાઓ Maclloc Institute સાથે...</p>
+            </div>
+            <div class="button">
+            <button>READ MORE</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sec3">
+            <div class="Animal">
+                <h1>WHY INFORMATION TECHNOLOGY?</h1>
+                        <p style="color: #303030;";>Welcome to our website, where we explore the exciting world of Information <br>
+                    Technology (IT) and its profound impact on our lives.
+                     In this digital age, IT has <br>become an essential and pervasive force,
+                    revolutionizing the way we live, work,<br> communicate, and solve problems.
+                     Let us delve into the reasons why <br> Information Technology is a field 
+                     worth exploring and embracing.</p>
+                        <p>Information Technology has permeated every aspect of our lives.
+                     In today's <br>digital era, businesses and organizations are undergoing 
+                     rapid transformations <br> to stay competitive.In today's digital era, 
+                     businesses and organizations are <br>undergoing rapid transformations 
+                     to stay competitive. Information Technology <br> is a field that thrives 
+                     on continuous learning.</p>
+            </div>
+            <div class="lap">
+                <img style="width: 600px;"src="{% static 'Image/mac2.jpg' %}" alt="Sorry">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sec7">
+            <div class="fac">
+                <h1>Maclloc Institute Facilities</h1>
+            </div>
+            <div class="fima1">
+                <div class="fima11">
+                    <div class="facilityimg1">
+                        <img src="{% static 'Image/fac1.png' %}" alt="Sorry">
+                    </div>    
+                    <div class="facilitytitle1">
+                        <h4 style="font-style: normal ;">Industry Expert Trainers</h4>
+                    </div>
+                </div>
+                <div class="fima22">
+                    <div class="facilityimg2">
+                        <img src="{% static 'Image/fac2.png' %}" alt="Sorry">
+                    </div>
+                    <div class="facilitytitle2">
+                        <h4 style="font-style: normal;">100% Placement Assistance</h4>
+                    </div>
+                </div>
+                <div class="fima33">
+                    <div class="facilityimg3">
+                        <img src="{% static 'Image/fac3.png' %}" alt="Sorry">
+                    </div>
+                    <div class="facilitytitle3">
+                        <h4 style="font-style: normal;">Softskill Improvement Sessions
+                        </h4>
+                    </div>
+                </div>
+                <div class="fima44">
+                    <div class="facilityimg4">
+                        <img src="{% static 'Image/fac4.png' %}" alt="Sorry">
+                    </div>
+                    <div class="facilitytitle">
+                        <h4 style="font-style: normal;">Career Counselling</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="fima2">  
+                <div class="fima55"> 
+                    <div class="facilityimg5">
+                        <img src="{% static 'Image/fac5.png' %}" alt="Sorry">
+                    </div>
+                    <div class="facilitytitle">
+                        <h4 style="font-style: normal;">Job Oriented Courses</h4>
+                    </div>
+                </div>
+                <div class="fima66">
+                    <div class="facilityimg6">
+                        <img src="{% static 'Image/fac6.png' %}" alt="Sorry">
+                    </div>
+                    <div class="facilitytitle">
+                        <h4 style="font-style: normal;">Interview Support</h4>
+                    </div>
+                </div>
+                <div class="fima77">
+                    <div class="facilityimg7">
+                        <img src="{% static 'Image/fac7.png' %}" alt="Sorry">
+                    </div>
+                    <div class="facilitytitle7">
+                        <h4 style="font-style: normal;">Personalized Attention</h4>
+                    </div>
+                </div>
+                <div class="fima88">
+                    <div class="facilityimg8">
+                        <img src="{% static 'Image/fac8.png' %}" alt="Sorry">
+                    </div>
+                    <div class="facilitytitle8">
+                        <h4 style="font-style: normal;">Lifetime Support Community</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sec4">
+            <div class="cc1">
+                <h1 style="color: white;">What Our Student Says</h1>
+            </div>
+            <div class="p1">
+                <p style="color: white;">So far many students have taken up the education in our academy and have built a good career in their field. Some of them are presenting <br>
+                                    their Review about our Acedemy</p>
+            </div>
+            <div class="jay">
+                <img style="width: 200px;"src="{% static 'Image/jay.jpg' %}" alt="Sorry">
+            </div>
+            <div class="p2">
+                <h1 style="color: white;">JAY BHUTAIYA</h1>
+                <p style="color: white;">The curriculum at Maclloc Multimedia Institute is thoughtfully designed to cover a wide range of relevant topics.
+                     From programming languages and web development to database management and networking,
+                      the courses provide a well-rounded education in the IT field. 
+                      The curriculum is regularly updated to keep up with the latest industry trends and technologies, 
+                      ensuring that students are equipped with the most up-to-date skills and knowledge.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="sec6">
+            <div class="se1">
+                <h1 style="color: #303030;">OUR RECRUITMENT PARTNERS</h1>
+            </div>
+            <div class="sp1">
+                <p>After completing the course all the students of our academy get 100% jobs for a bright future. This helps us in the IT field of very good name 
+                    <br>companies which we are giving to the best employees.</p>
+            </div>
+            <div class="slog">
+                <img style="width: 200px;" src="{% static 'Image/mac.png' %}" alt="Sorry">
+                <img style="width: 200px;" src="{% static 'Image/mac.png' %}" alt="Sorry">
+                <img style="width: 200px;" src="{% static 'Image/mac.png' %}" alt="Sorry">
+                <img style="width: 200px;" src="{% static 'Image/mac.png' %}" alt="Sorry">
+                <img style="width: 200px;" src="{% static 'Image/mac.png' %}" alt="Sorry">
+            </div>
+        </div>
+    </section> 
+{% endblock %}      

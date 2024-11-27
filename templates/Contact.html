@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block  MAC%}
+    <!-- Banner start-->
+    <section>
+        <div class="banc">
+            <h1>CONTACT</h1>
+        </div>
+    </section>
+    <!--Banner end-->
+    <section>
+        <div class="row">
+            <div class="addr">
+                <a href=""><i class="fa-solid fa-location-dot fa-3x"></i></i></a>
+            </div>
+            <div class="addre">
+                <h4>Address</h4>
+                    <p>219, Raghuvir Shoppers, <br> near lajamni chowk <br>, mota varachha, surat-394101</p>
+            </div>    
+            <div class="calling">
+                <div class="cac">
+                    <a href=""><i class="fa-solid fa-phone fa-3x"></i></a>
+                </div>
+                <div class="cn">
+                    <h4>Phone</h4>
+                        <p>+91 7574843784</p>
+                </div>        
+            </div>
+            <div class="EEM">
+                <div class="cl">
+                    <a href=""><i class="fa-solid fa-square-envelope fa-4x"></i></a>
+                </div>
+                <div class="ce">
+                    <h4>EMAIL</h4>
+                        <p>info.macllocinstitute.gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="cform">
+            <div class="formtitle">
+                <h3 style="font-size: xx-large;">Leave  us a Message</h3>
+            </div>
+            <form method="post" action="">
+                {% csrf_token %}
+                {{form.as_p}}
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="cimg">
+            <img style="width: 600px;" src="{% static 'Image/FullSizeRender.jpg ' %}" alt="">
+        </div>
+    </section>
+{% endblock %}

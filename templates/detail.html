@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block MAC %}
+<style>
+    .blocklist{
+        margin-top: 20px;
+    }
+    .block2{
+        margin-top: 20px;
+    }
+    .block2 li{
+        margin-left: 30px;
+        line-height: 30px;
+        color: #a74737;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .block2 h1{
+        margin-left: 20px;
+        line-height: 60px;
+    }
+    .block3{
+        display: flex;
+        margin-top: 50px
+    }
+    .blockimg2{
+        margin-bottom: 100px
+    }
+    .mainname{
+        margin-top: 130px;
+        margin-left: 200px;
+        font-size: 30px;
+        color: #a74737;
+        margin-top: 80;
+    }
+</style>
+<section>
+        <div class="blockchain">
+            <img style="height: 80vh; width: 100%; ;" src="/media/{{data.bi}}" alt="">
+        </div>
+        <div class="block">
+            <div class="blockimg">
+                <img style="width: 650px; margin-top: 70px;margin-right: 30px;margin-bottom: 20px" src="/media/{{data.cimg}}" alt="">
+            </div>
+            <div style="margin-top: 70px;margin-right: 20px;" class="blocklist">
+                    <h1>{{data.cname}}</h1>
+                    {% load custom_filter %}
+                    {% for d in data.cinfo|block %}
+                    <li>{{d}}</li>
+                    {% endfor %}
+            </div>
+        </div>
+    <div class="block3">
+
+        {% if data.cname1 != 'None'  %}
+        <div class="block2">
+            <h1>{{data.cname1}}</h1>
+            {% load custom_filter %}
+            {% for i in data.cinfo1|block %}
+            <li>{{i}}</li>
+            {% endfor %}
+        </div>
+        <div class="blockimg2">
+            <img style="width: 700px; margin-left: 350px;"  src="/media/{{data.cimg1}}" alt="">
+        </div>
+    </div>
+        {% endif %}
+    </section>
+    </body>
+    </html>
+</section>
+{% endblock %}

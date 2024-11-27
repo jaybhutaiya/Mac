@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block MAC %}
+<section>
+    <div class="bancc">
+        <h4>Courses</h4>
+    </div>
+</section>
+<section>
+    <div class="maincourses">
+            <div class="course1">
+                {% for i in object_list %}
+                <div class="border1">
+                    <div class="bd">
+                        <div class="img1">
+                            <img style="width: 250px; margin: 20px;" src="/media/{{i.image}}" alt="">
+                        </div>
+                        <div class="name1">
+                            <b>{{i.name}}</b>
+                        </div>
+                        <div class="time1">
+                            <h4>Course Duration : {{i.duration}}</h4>
+                        </div>
+                        <button class="info1">
+                            <a href="{% url 'detail' i.id %}">Read More</a>
+                        </button>
+                    </div>
+                </div>
+                
+                {% if forloop.counter|divisibleby:4 %}</div><div class="course1">{% endif %}
+                {% endfor %} 
+{% endblock %}
